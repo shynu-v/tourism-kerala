@@ -1,0 +1,326 @@
+*,html{
+    margin: 0;
+    padding: 0;
+}
+
+/* navabar */
+.navad{
+    padding-right: 20px;
+}
+
+.navbrandad{
+    padding-left: 50px;
+}
+
+.navtrans{
+    background-color: rgba(194, 194, 194, 0.199);
+    transition: background-color .2s ease;
+}
+
+.navcolor{
+    background-color: rgba(0, 0, 0, 0.918);
+    color: white;
+}
+
+
+/* experience kerala */
+.exprow{
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+
+.exphead{
+    color: rgb(7, 7, 158);
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* section carousel */
+
+.textoverimage{
+    position: relative;
+    width: 20%;
+    margin: 10px;
+    height: 30vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: .5s;
+}
+
+.textoverimage:hover{
+    background-size: 105%;
+}
+
+.textoverimage:after{
+    position: absolute;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    margin: 0;
+    text-align: center;
+    align-self: center;
+    padding: 0 8px;
+    opacity: 0;
+    content: attr(data-text);
+    transition: .5s;
+}
+
+.textoverimage:hover:after{
+    opacity: 1;
+    
+    padding: 8px;
+}
+/* center container */
+.centercontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    position: relative;
+    text-align:center;
+    overflow: hidden;
+}
+
+/* top destination */
+
+.desbg{
+    background-color: rgba(138, 136, 136, 0.336);
+    padding-bottom: 5%;
+}
+
+
+.desardiv{
+    width: 25%;
+    height: 98%;
+    overflow: hidden;
+}
+
+.desardiv img{
+    width: 100%;
+    height: 100%;
+}
+
+/* things to do */
+
+.thingbg{
+    background: url("../image/bg/sky-1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 5%;
+}
+
+
+.thhead{
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.thar{
+
+    position: relative;
+    width: 33.3%;
+    height: 98%;
+    overflow: hidden;
+    padding-bottom: 3%;
+}
+
+.thardiv{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.thardiv img{
+    width: 100%;
+    height: 100%;
+}
+
+.overimg{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.8vw;
+    letter-spacing: 2px;
+    margin: 0;
+    text-align: center;
+    align-self: center;
+    
+}
+
+
+/* districts */
+
+
+.mycon{
+    margin-top: 5%;
+    overflow: hidden;
+}
+.pagehead{
+    
+    width:100%;
+    background-color: #2f426d;
+    padding: 0 60px 0 20px;
+    color: white;
+    font-family: sans-serif;
+    top: 50%;
+    float: left;
+    margin: 0;
+}
+.dished{
+    margin: 0;
+}
+
+.pad-non{
+    padding: 0;
+}
+
+.breadcrumb-custom {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+/* some content */
+.def-pad{
+    padding: 5%;
+}
+.def{
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 50px;
+}
+
+/* dist */
+.distdiv{
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+    padding: 2%;
+}
+.distanc img{
+    width: 100%;
+    height: 100%;
+}
+.distanc{
+    text-decoration: none;
+}
+
+.distanc p{
+    background-color: rgba(46, 46, 46, 0.479);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* distric alapuzha */
+
+.content{
+    color: rgba(82, 82, 82, 0.897);
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 1.1em;
+    margin: 1em 0;
+    justify-content: center;
+    text-align: justify;
+}
+
+.content p{
+    line-height: 1.5rem;
+    letter-spacing: .02rem;
+    margin: 0 0 10px;
+}
+
+.allrow ul{
+    padding-left: 5%;
+    list-style: none;
+    line-height: 1.5rem;
+    letter-spacing: .02rem;
+    margin: 0 0 10px;
+}
+
+.distimg{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.distimg img{
+    width: 100%;
+    height: 25vw;
+}
+
+.distimg p{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* material ui */
+.allbg{
+    background-color: rgba(160, 46, 189, 0.562);
+}
+
+.my-card {
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    float: none;
+    
+  }
+
+.my-row{
+    padding: 8%;
+}
+.my-color{
+    width: 100%;
+    height: 100%;
+   
+}
+.my-col{
+    width: 100%;
+    float: none;
+    display: flex;
+    justify-content: center;
+    background-color: #2f426d;
+}
+
+
+/* places to visit carousel */
+
+.carowid{
+    height: 25vw;
+}
+
+.carby{
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rcen{
+    margin: 0;
+}
