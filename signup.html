@@ -48,7 +48,7 @@
                   </div><br>
                   <div class="login-wrapper my-auto">
                     <h1 class="login-title">Sign up</h1>
-                    <form action="#!">
+                    <form action="login.html" autocomplete="off">
                       <div class="form-group formcls mb-2">
                         <label for="fname">UserName</label>
                         <div class="d-flex namecls justify-content-between">
@@ -60,13 +60,19 @@
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" class="form-control" placeholder="email@example.com">
                       </div>
+                      <div class="form-group formcls mb-2">
+                        <label for="mobile">Mobile</label>
+                        <input type="tel" id="mobile" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" class="form-control">
+                      </div>
                       <div class="form-group mb-4 formcls">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" class="form-control mb-2" placeholder="enter your passsword">
+                        <input type="password" name="password" id="password" class="form-control mb-2" placeholder="Enter your passsword">
+                      </div>
+                      <div class="form-group mb-4 formcls">
                         <label for="password">Confirm Password</label>
                         <input type="password" name="password" id="password1" class="form-control" placeholder="Re-enter your passsword">
                       </div>
-                      <input name="signup" id="login" class="btn btn-block login-btn" type="button" value="SignUp" style="width: 100%;">
+                      <button id="login" class="btn btn-block login-btn"  style="width: 100%;">Signup</button>
                     </form>
                     <p class="login-wrapper-footer-text">Already have an account ?<a href="login.html" class="text-reset">Login here</a></p>
                   </div>
