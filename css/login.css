@@ -21,12 +21,10 @@ body {
   }
 
 .login-wrapper {
-  width: 300px;
+  width: 100%;
   max-width: 100%;
   padding-bottom: 24px; }
-  @media (max-width: 575px) {
-    .login-wrapper {
-      width: 100%; } }
+
   .login-wrapper label {
     font-size: 14px;
     font-weight: bold;
@@ -34,9 +32,9 @@ body {
     padding-bottom: 8px; }
   .login-wrapper .form-control {
     border: none;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    transition: border-bottom 0.5s ease-out;
     border-radius: 0;
-    margin-bottom: 20px;
     min-height: 40px;
     font-size: 18px;
     font-weight: normal; }
