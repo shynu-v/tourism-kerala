@@ -113,3 +113,25 @@ body {
 .namecls input{
   width: 45%;
 }
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: rgb(0, 255, 0);
+}
+
+.valid:before {
+  position: relative;
+  
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  
+  content: "✖";
+}
