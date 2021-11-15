@@ -120,8 +120,6 @@ body {
 }
 
 .valid:before {
-  position: relative;
-  
   content: "✔";
 }
 
@@ -131,7 +129,5 @@ body {
 }
 
 .invalid:before {
-  position: relative;
-  
   content: "✖";
 }

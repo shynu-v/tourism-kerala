@@ -87,7 +87,7 @@ function validate(){
         pbol = true;
     }
     if(p1 == false){
-        cerror.innerText = "Please type same password as above";
+        cerror.innerText = "Please type same password";
         p1bol = false;
     }else{
         cerror.innerText = "";
